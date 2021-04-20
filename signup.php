@@ -72,10 +72,10 @@
     <h2  ><mark> create your account for free!!!</mark> </h2>
      <tr >
        <h2 id="center"> <td  > Already have an account?</td>
-        <td > <a href="file:///D:/HTML,CSS/html-css-javascript/signIn.html">log in</a></td></h2>
+        <td > <a href="http://localhost/project/login.php">log in</a></td></h2>
         
      </tr>
-	<form>
+	<form action="registration.php" method="POST">
 		<table>
 			<tr>
 				<td class="highlight"> Name of the user: </td>
@@ -91,15 +91,7 @@
 				<td> <input type="radio" name="gender" value="m"> Male
 				<input type="radio" name="gender" value="f"> Female</td>
 			</tr>
-            <tr>
-                <td>
-                    <label for="start">Date of birth:</label></td>
-
-                <td><input type="date" id="start" name="trip-start"
-                     value="2018-07-22"
-                     min="1900-01-01" max="2021-12-31" required>
-                </td>
-            </tr>
+           
 			<tr>
 				<td class="highlight"> Email: </td>
 				<td> <input type="mail" placeholder="Email Id" name="email" required></td>
